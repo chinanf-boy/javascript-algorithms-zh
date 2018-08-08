@@ -11,7 +11,7 @@
 
 ## 校对✔
 
-> 本书的主readme文件,是翻译了的, 但是进入到 每个算法中 还是 英文, 搞搞
+> 进入到 每个算法中 还是 英文, 搞搞
 
 欢迎 \`Issue\` 和 \`Pull\` ❤️, 最好 \`Pull\` 👏
 
@@ -24,6 +24,8 @@
 [last]: https://img.shields.io/github/last-commit/trekhleb/javascript-algorithms.svg
 [more]: https://github.com/chinanf-boy/chinese-translate-list
 
+
+> **提示**: 其实对应, 每个算法里面多数是维基百科, 的内容, 可能自我查找一些中文材料,理解会好一点 ❤
 
 ## 生活
 
