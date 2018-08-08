@@ -9,11 +9,18 @@
 
 ---
 
-|翻译的`readme`与`src`文件夹|与日期|原文更新|更多
----|---|---|---
-[readme-and-src]|2018 7.27|![last commit][last]|[中文翻译][more]
+## 校对✔
 
-[readme-and-src]:  https://github.com/trekhleb/javascript-algorithms/blob/f32172e3db50a73b2c4b09c4363d1fdc40ce2ef6/README.md
+> 本书的主readme文件,是翻译了的, 但是进入到 每个算法中 还是 英文, 搞搞
+
+欢迎 \`Issue\` 和 \`Pull\` ❤️, 最好 \`Pull\` 👏
+
+
+|翻译的原文|与日期|原文更新|更多
+---|---|---|---
+[commit]|2018 7.27|![last commit][last]|[中文翻译][more]
+
+[commit]:  https://github.com/trekhleb/javascript-algorithms/tree/f32172e3db50a73b2c4b09c4363d1fdc40ce2ef6
 [last]: https://img.shields.io/github/last-commit/trekhleb/javascript-algorithms.svg
 [more]: https://github.com/chinanf-boy/chinese-translate-list
 
@@ -22,15 +29,6 @@
 
 [help me live , live need money 💰](https://github.com/chinanf-boy/live-need-money)
 
-## 校对完成
-
-> 本书的主`readme`文件,是翻译了的, 但是进入到 每个算法中 还是 英文, 搞搞
-
-- ⏰ 2018 7.26 开始
-
-欢迎 \`Issue\` 和 \`Pull\` ❤️, 最好 \`Pull\` 👏
-
-- ⏰ 2018 8.8 结束
 
 ---
 
@@ -41,7 +39,6 @@
 > 我们正在编写一本书, 详细解释主要算法。
 如果您希望在“JavaScript算法”一书中收到通知
 发布会, [订阅 这里](https://upscri.be/402324/).
-
 
 ## 数据结构
 
@@ -61,11 +58,11 @@
     * `A` [二叉查找树](src/data-structures/tree/binary-search-tree/README.zh.md)
     * `A` [AVL 树](src/data-structures/tree/avl-tree/README.zh.md)
     * `A` [红黑树](src/data-structures/tree/red-black-tree/README.zh.md)
-    * [x] `A` [线段树](src/data-structures/tree/segment-tree/README.zh.md) - 使用 最小/最大/总和 范围查询示例
-    * [x] `A` [树状数组](src/data-structures/tree/fenwick-tree/README.zh.md) (二叉索引树)
+    * `A` [线段树](src/data-structures/tree/segment-tree/README.zh.md) - 使用 最小/最大/总和 范围查询示例
+    * `A` [树状数组](src/data-structures/tree/fenwick-tree/README.zh.md) (二叉索引树)
 * `A` [图](src/data-structures/graph/README.zh.md) (有向图与无向图)
 * `A` [并查集](src/data-structures/disjoint-set/README.zh.md)
-* [x] `A` [布隆过滤器](src/data-structures/bloom-filter/README.zh.md)
+* `A` [布隆过滤器](src/data-structures/bloom-filter/README.zh.md)
 
 ## 算法
 
@@ -74,17 +71,17 @@
 ### 算法主题
 
 *  **数学**
-  * [x] `B` [Bit 操控](src/algorithms/math/bits/README.zh.md) - set/get/update/clear 位, 乘以/除以 二进制位, 变负 等.
+  * `B` [Bit 操控](src/algorithms/math/bits/README.zh.md) - set/get/update/clear 位, 乘以/除以 二进制位, 变负 等.
   * `B` [阶乘](src/algorithms/math/factorial/README.zh.md)
   * `B` [斐波那契数](src/algorithms/math/fibonacci/README.zh.md)
   * `B` [素数检测](src/algorithms/math/primality-test/README.zh.md) (排除法)
   * `B` [欧几里得算法](src/algorithms/math/euclidean-algorithm/README.zh.md) - 计算最大公约数 (GCD) 
   * `B` [最小公倍数](src/algorithms/math/least-common-multiple/README.zh.md) (LCM)
-  * [x] `B` [素数筛](src/algorithms/math/sieve-of-eratosthenes/README.zh.md) - 查找所有素数达到任何给定限制
-  * [x] `B` [判断2次方数](src/algorithms/math/is-power-of-two/README.zh.md) - 检查数字是否为2的幂 (原生和按位算法) 
-  * [x] `B` [杨辉三角形](src/algorithms/math/pascal-triangle/README.zh.md)
+  * `B` [素数筛](src/algorithms/math/sieve-of-eratosthenes/README.zh.md) - 查找所有素数达到任何给定限制
+  * `B` [判断2次方数](src/algorithms/math/is-power-of-two/README.zh.md) - 检查数字是否为2的幂 (原生和按位算法) 
+  * `B` [杨辉三角形](src/algorithms/math/pascal-triangle/README.zh.md)
   * `A` [整数拆分](src/algorithms/math/integer-partition/README.zh.md)
-  * [x] `A` [割圆术](src/algorithms/math/liu-hui/README.zh.md) - 基于N-gons的近似π计算
+  * `A` [割圆术](src/algorithms/math/liu-hui/README.zh.md) - 基于N-gons的近似π计算
 * **集合**
   * `B` [笛卡尔积](src/algorithms/sets/cartesian-product/README.zh.md) - 多集合结果
   * `A` [幂集](src/algorithms/sets/power-set/README.zh.md) - 该集合的所有子集
@@ -103,101 +100,101 @@
   * `A` [克努斯-莫里斯-普拉特算法](src/algorithms/string/knuth-morris-pratt/README.zh.md) - 子串搜索
   * `A` [字符串快速查找](src/algorithms/string/rabin-karp/README.zh.md) - 子串搜索
   * `A` [最长公共子串](src/algorithms/string/longest-common-substring/README.zh.md)
-  * [x] `A` [正则表达式匹配](src/algorithms/string/regular-expression-matching/README.zh.md)
+  * `A` [正则表达式匹配](src/algorithms/string/regular-expression-matching/README.zh.md)
 * **搜索**
-  * [x] `B` [线性搜索](src/algorithms/search/linear-search/README.zh.md)
-  * [x] `B` [跳转搜索](src/algorithms/search/jump-search/README.zh.md)  (或块搜索)  - 搜索排序数组
-  * [x] `B` [二分查找](src/algorithms/search/binary-search/README.zh.md)
-  * [x] `B` [插值搜索](src/algorithms/search/interpolation-search/README.zh.md) - 搜索均匀分布的排序数组
+  * `B` [线性搜索](src/algorithms/search/linear-search/README.zh.md)
+  * `B` [跳转搜索](src/algorithms/search/jump-search/README.zh.md)  (或块搜索)  - 搜索排序数组
+  * `B` [二分查找](src/algorithms/search/binary-search/README.zh.md)
+  * `B` [插值搜索](src/algorithms/search/interpolation-search/README.zh.md) - 搜索均匀分布的排序数组
 * **排序**
-  * [x] `B` [冒泡排序](src/algorithms/sorting/bubble-sort/README.zh.md)
-  * [x] `B` [选择排序](src/algorithms/sorting/selection-sort/README.zh.md)
-  * [x] `B` [插入排序](src/algorithms/sorting/insertion-sort/README.zh.md)
-  * [x] `B` [堆排序](src/algorithms/sorting/heap-sort/README.zh.md)
-  * [x] `B` [归并排序](src/algorithms/sorting/merge-sort/README.zh.md)
-  * [x] `B` [快速排序](src/algorithms/sorting/quick-sort/README.zh.md)
-  * [x] `B` [希尔排序](src/algorithms/sorting/shell-sort/README.zh.md)
-  * [x] `B` [计数排序](src/algorithms/sorting/counting-sort/README.zh.md)
-  * [x] `B` [基数排序](src/algorithms/sorting/radix-sort/README.zh.md)
+  * `B` [冒泡排序](src/algorithms/sorting/bubble-sort/README.zh.md)
+  * `B` [选择排序](src/algorithms/sorting/selection-sort/README.zh.md)
+  * `B` [插入排序](src/algorithms/sorting/insertion-sort/README.zh.md)
+  * `B` [堆排序](src/algorithms/sorting/heap-sort/README.zh.md)
+  * `B` [归并排序](src/algorithms/sorting/merge-sort/README.zh.md)
+  * `B` [快速排序](src/algorithms/sorting/quick-sort/README.zh.md)
+  * `B` [希尔排序](src/algorithms/sorting/shell-sort/README.zh.md)
+  * `B` [计数排序](src/algorithms/sorting/counting-sort/README.zh.md)
+  * `B` [基数排序](src/algorithms/sorting/radix-sort/README.zh.md)
 * **树**
-  * [x] `B` [深度优先搜索](src/algorithms/tree/depth-first-search/README.zh.md) (DFS)
-  * [x] `B` [广度优先搜索](src/algorithms/tree/breadth-first-search/README.zh.md) (BFS)
+  * `B` [深度优先搜索](src/algorithms/tree/depth-first-search/README.zh.md) (DFS)
+  * `B` [广度优先搜索](src/algorithms/tree/breadth-first-search/README.zh.md) (BFS)
 * **图**
-  * [x] `B` [深度优先搜索](src/algorithms/graph/depth-first-search/README.zh.md) (DFS)
-  * [x] `B` [广度优先搜索](src/algorithms/graph/breadth-first-search/README.zh.md) (BFS)
-  * [x] `A` [戴克斯特拉算法](src/algorithms/graph/dijkstra/README.zh.md) - 找到图中所有顶点的最短路径
-  * [x] `A` [贝尔曼-福特算法](src/algorithms/graph/bellman-ford/README.zh.md) - 找到图中所有顶点的最短路径
-  * [x] `A` [弗洛伊德算法](src/algorithms/graph/floyd-warshall/README.zh.md) - 找到所有顶点对 之间的最短路径
-  * [x] `A` [判圈算法](src/algorithms/graph/detect-cycle/README.zh.md) - 对于有向图和无向图 (基于DFS和不相交集的版本) 
-  * [x] `A` [普林演算法](src/algorithms/graph/prim/README.zh.md) - 寻找加权无向图的最小生成树 (MST) 
-  * [x] `B` [克鲁斯克尔演算法](src/algorithms/graph/kruskal/README.zh.md) - 寻找加权无向图的最小生成树 (MST) 
-  * [x] `A` [拓扑排序](src/algorithms/graph/topological-sorting/README.zh.md) - DFS 方法
-  * [x] `A` [关节点](src/algorithms/graph/articulation-points/README.zh.md) - Tarjan算法 (基于DFS) 
-  * [x] `A` [桥](src/algorithms/graph/bridges/README.zh.md) - 基于DFS的算法
-  * [x] `A` [欧拉回径与一笔画问题](src/algorithms/graph/eulerian-path/README.zh.md) - Fleury的算法 - 一次访问每个边
-  * [x] `A` [哈密顿图](src/algorithms/graph/hamiltonian-cycle/README.zh.md) - 恰好访问每个顶点一次
-  * [x] `A` [强连通分量](src/algorithms/graph/strongly-connected-components/README.zh.md) - Kosaraju算法
-  * [x] `A` [旅行推销员问题](src/algorithms/graph/travelling-salesman/README.zh.md) - 尽可能以最短的路线访问每个城市并返回原始城市
+  * `B` [深度优先搜索](src/algorithms/graph/depth-first-search/README.zh.md) (DFS)
+  * `B` [广度优先搜索](src/algorithms/graph/breadth-first-search/README.zh.md) (BFS)
+  * `A` [戴克斯特拉算法](src/algorithms/graph/dijkstra/README.zh.md) - 找到图中所有顶点的最短路径
+  * `A` [贝尔曼-福特算法](src/algorithms/graph/bellman-ford/README.zh.md) - 找到图中所有顶点的最短路径
+  * `A` [弗洛伊德算法](src/algorithms/graph/floyd-warshall/README.zh.md) - 找到所有顶点对 之间的最短路径
+  * `A` [判圈算法](src/algorithms/graph/detect-cycle/README.zh.md) - 对于有向图和无向图 (基于DFS和不相交集的版本) 
+  * `A` [普林演算法](src/algorithms/graph/prim/README.zh.md) - 寻找加权无向图的最小生成树 (MST) 
+  * `B` [克鲁斯克尔演算法](src/algorithms/graph/kruskal/README.zh.md) - 寻找加权无向图的最小生成树 (MST) 
+  * `A` [拓扑排序](src/algorithms/graph/topological-sorting/README.zh.md) - DFS 方法
+  * `A` [关节点](src/algorithms/graph/articulation-points/README.zh.md) - Tarjan算法 (基于DFS) 
+  * `A` [桥](src/algorithms/graph/bridges/README.zh.md) - 基于DFS的算法
+  * `A` [欧拉回径与一笔画问题](src/algorithms/graph/eulerian-path/README.zh.md) - Fleury的算法 - 一次访问每个边
+  * `A` [哈密顿图](src/algorithms/graph/hamiltonian-cycle/README.zh.md) - 恰好访问每个顶点一次
+  * `A` [强连通分量](src/algorithms/graph/strongly-connected-components/README.zh.md) - Kosaraju算法
+  * `A` [旅行推销员问题](src/algorithms/graph/travelling-salesman/README.zh.md) - 尽可能以最短的路线访问每个城市并返回原始城市
 * **未分类**
-  * [x] `B` [汉诺塔](src/algorithms/uncategorized/hanoi-tower/README.zh.md)
-  * [x] `B` [旋转矩阵](src/algorithms/uncategorized/square-matrix-rotation/README.zh.md) - 原地算法
-  * [x] `B` [跳跃 游戏](src/algorithms/uncategorized/jump-game/README.zh.md) - 回溯, 动态编程 (自上而下+自下而上) 和贪婪的例子
-  * [x] `B` [独特(唯一) 路径](src/algorithms/uncategorized/unique-paths/README.zh.md) - 回溯, 动态编程和基于Pascal三角形的例子
-  * [x] `B` [雨梯田](src/algorithms/uncategorized/rain-terraces/README.zh.md) - 诱捕雨水问题 (动态编程和暴力版本) 
-  * [x] `A` [八皇后问题](src/algorithms/uncategorized/n-queens/README.zh.md)
-  * [x] `A` [骑士巡逻](src/algorithms/uncategorized/knight-tour/README.zh.md)
+  * `B` [汉诺塔](src/algorithms/uncategorized/hanoi-tower/README.zh.md)
+  * `B` [旋转矩阵](src/algorithms/uncategorized/square-matrix-rotation/README.zh.md) - 原地算法
+  * `B` [跳跃 游戏](src/algorithms/uncategorized/jump-game/README.zh.md) - 回溯, 动态编程 (自上而下+自下而上) 和贪婪的例子
+  * `B` [独特(唯一) 路径](src/algorithms/uncategorized/unique-paths/README.zh.md) - 回溯, 动态编程和基于Pascal三角形的例子
+  * `B` [雨水收集](src/algorithms/uncategorized/rain-terraces/README.zh.md) - 诱捕雨水问题 (动态编程和暴力版本) 
+  * `A` [八皇后问题](src/algorithms/uncategorized/n-queens/README.zh.md)
+  * `A` [骑士巡逻](src/algorithms/uncategorized/knight-tour/README.zh.md)
 
 ### 算法范式
 
 算法范式是基于类的设计的通用方法或方法的算法。 这是一个比算法概念更高的抽象, 就像一个
 算法是比计算机程序更高的抽象。
 
-* **BF算法** - 查找所有可能性并选择最佳解决方案
-  * [x] `B` [线性 搜索](src/algorithms/search/linear-search/README.zh.md)
-  * [x] `B` [雨 梯田](src/algorithms/uncategorized/rain-terraces/README.zh.md) - 诱导雨水问题
-  * [x] `A` [最大子数列](src/algorithms/sets/maximum-subarray/README.zh.md)
-  * [x] `A` [旅行推销员问题](src/algorithms/graph/travelling-salesman/README.zh.md) - 尽可能以最短的路线访问每个城市并返回原始城市
+* **BF算法** - 查找/搜索 所有可能性并选择最佳解决方案
+  *  `B` [线性搜索](src/algorithms/search/linear-search)
+  *  `B` [雨水收集](src/algorithms/uncategorized/rain-terraces) - 诱导雨水问题
+  *  `A` [最大子数列](src/algorithms/sets/maximum-subarray)
+  *  `A` [旅行推销员问题](src/algorithms/graph/travelling-salesman) - 尽可能以最短的路线访问每个城市并返回原始城市
 
 * **贪心法** - 在当前选择最佳选项, 不考虑以后情况
-  * [x] `B` [Jump Game](src/algorithms/uncategorized/jump-game/README.zh.md)
-  * [x] `A` [背包问题](src/algorithms/sets/knapsack-problem/README.zh.md)
-  * [x] `A` [戴克斯特拉算法](src/algorithms/graph/dijkstra/README.zh.md) - 找到所有图顶点的最短路径
-  * [x] `A` [普里姆算法](src/algorithms/graph/prim/README.zh.md) - 寻找加权无向图的最小生成树 (MST-
-  * [x] `A` [克鲁斯卡尔算法](src/algorithms/graph/kruskal/README.zh.md) - 寻找加权无向图的最小生成树 (MST-
+  *  `B` [跳跃游戏](src/algorithms/uncategorized/jump-game)
+  *  `A` [背包问题](src/algorithms/sets/knapsack-problem)
+  *  `A` [戴克斯特拉算法](src/algorithms/graph/dijkstra) - 找到所有图顶点的最短路径
+  *  `A` [普里姆算法](src/algorithms/graph/prim) - 寻找加权无向图的最小生成树 (MST)
+  *  `A` [克鲁斯卡尔算法](src/algorithms/graph/kruskal) - 寻找加权无向图的最小生成树 (MST)
 * **分治法** - 将问题分成较小的部分, 然后解决这些部分
-  * [x] `B` [二分查找](src/algorithms/search/binary-search/README.zh.md)
-  * [x] `B` [汉诺塔](src/algorithms/uncategorized/hanoi-tower/README.zh.md)
-  * [x] `B` [杨辉三角形](src/algorithms/math/pascal-triangle/README.zh.md)
-  * [x] [欧几里得算法](src/algorithms/math/euclidean-algorithm/README.zh.md) - 计算最大公约数 (GCD-
-  * [x] `A` [排列](src/algorithms/sets/permutations/README.zh.md) (有/无重复-
-  * [x] `A` [组合](src/algorithms/sets/combinations/README.zh.md) (有/无重复-
-  * [x] `B` [Jump Game](src/algorithms/uncategorized/jump-game/README.zh.md)
-  * [x] `B` [归并排序](src/algorithms/sorting/merge-sort/README.zh.md)
-  * [x] `B` [Quicksort](src/algorithms/sorting/quick-sort/README.zh.md)
-  * [x] `B` [树深度优先搜索](src/algorithms/tree/depth-first-search/README.zh.md) (DFS-
-  * [x] `B` [图深度优先搜索](src/algorithms/graph/depth-first-search/README.zh.md) (DFS-
+  *  `B` [二分查找](src/algorithms/search/binary-search)
+  *  `B` [汉诺塔](src/algorithms/uncategorized/hanoi-tower)
+  *  `B` [杨辉三角形](src/algorithms/math/pascal-triangle)
+  *  [欧几里得算法](src/algorithms/math/euclidean-algorithm) - 计算最大公约数 (GCD)
+  *  `A` [排列](src/algorithms/sets/permutations) (有/无重复)
+  *  `A` [组合](src/algorithms/sets/combinations) (有/无重复)
+  *  `B` [跳跃游戏](src/algorithms/uncategorized/jump-game)
+  *  `B` [归并排序](src/algorithms/sorting/merge-sort)
+  *  `B` [快速排序](src/algorithms/sorting/quick-sort)
+  *  `B` [树深度优先搜索](src/algorithms/tree/depth-first-search) (DFS)
+  *  `B` [图深度优先搜索](src/algorithms/graph/depth-first-search) (DFS)
 *  **动态编程** - 使用以前找到的子解决方案构建解决方案
-  * [x] `B` [斐波那契数](src/algorithms/math/fibonacci/README.zh.md)
-  * [x] `B` [Jump Game](src/algorithms/uncategorized/jump-game/README.zh.md)
-  * [x] `B` [唯一路径](src/algorithms/uncategorized/unique-paths/README.zh.md)
-  * [x] `B` [雨 梯田](src/algorithms/uncategorized/rain-terraces/README.zh.md) - 疏导雨水问题
-  * [x] `A` [莱温斯坦距离](src/algorithms/string/levenshtein-distance/README.zh.md) - 两个序列之间的最小编辑距离
-  * [x] `A` [最长公共子序列](src/algorithms/sets/longest-common-subsequence/README.zh.md) (LCS)
-  * [x] `A` [最长公共子串](src/algorithms/string/longest-common-substring/README.zh.md)
-  * [x] `A` [最长递增子序列](src/algorithms/sets/longest-increasing-subsequence/README.zh.md)
-  * [x] `A` [最短公共子序列](src/algorithms/sets/shortest-common-supersequence/README.zh.md)
-  * [x] `A` [0-1背包问题](src/algorithms/sets/knapsack-problem/README.zh.md)
-  * [x] `A` [整数拆分](src/algorithms/math/integer-partition/README.zh.md)
-  * [x] `A` [最大子数列](src/algorithms/sets/maximum-subarray/README.zh.md)
-  * [x] `A` [Floyd-Warshall Algorithm](src/algorithms/graph/floyd-warshall/README.zh.md) - 找到所有顶点对之间的最短路径
-  * [x] `A` [贝尔曼-福特算法](src/algorithms/graph/bellman-ford/README.zh.md) - 找到所有图顶点的最短路径
+  *  `B` [斐波那契数](src/algorithms/math/fibonacci)
+  *  `B` [跳跃游戏](src/algorithms/uncategorized/jump-game)
+  *  `B` [独特路径](src/algorithms/uncategorized/unique-paths)
+  *  `B` [雨水收集](src/algorithms/uncategorized/rain-terraces) - 疏导雨水问题
+  *  `A` [莱温斯坦距离](src/algorithms/string/levenshtein-distance) - 两个序列之间的最小编辑距离
+  *  `A` [最长公共子序列](src/algorithms/sets/longest-common-subsequence) (LCS)
+  *  `A` [最长公共子串](src/algorithms/string/longest-common-substring)
+  *  `A` [最长递增子序列](src/algorithms/sets/longest-increasing-subsequence)
+  *  `A` [最短公共子序列](src/algorithms/sets/shortest-common-supersequence)
+  *  `A` [0-1背包问题](src/algorithms/sets/knapsack-problem)
+  *  `A` [整数拆分](src/algorithms/math/integer-partition)
+  *  `A` [最大子数列](src/algorithms/sets/maximum-subarray)
+  *  `A` [弗洛伊德算法](src/algorithms/graph/floyd-warshall) - 找到所有顶点对之间的最短路径
+  *  `A` [贝尔曼-福特算法](src/algorithms/graph/bellman-ford) - 找到所有图顶点的最短路径
 * **回溯法** - 类似于 BF算法 试图产生所有可能的解决方案, 但每次生成解决方案测试如果它满足所有条件, 那么只有继续生成后续解决方案。 否则回溯并继续寻找不同路径的解决方案。
-  * [x]`B` [Jump Game](src/algorithms/uncategorized/jump-game/README.zh.md)
-  * [x] `B` [Unique Paths](src/algorithms/uncategorized/unique-paths/README.zh.md)
-  * [x] `A` [哈密顿图](src/algorithms/graph/hamiltonian-cycle/README.zh.md) - 恰好访问每个顶点一次
-  * [x] `A` [八皇后问题](src/algorithms/uncategorized/n-queens/README.zh.md)
-  * [x] `A` [骑士巡逻](src/algorithms/uncategorized/knight-tour/README.zh.md)
-  * `A` [Combination Sum](src/algorithms/sets/combination-sum/README.zh.md) - 从规定的总和中找出所有的组合
+  *  `B` [跳跃游戏](src/algorithms/uncategorized/jump-game)
+  *  `B` [独特路径](src/algorithms/uncategorized/unique-paths)
+  *  `A` [哈密顿图](src/algorithms/graph/hamiltonian-cycle) - 恰好访问每个顶点一次
+  *  `A` [八皇后问题](src/algorithms/uncategorized/n-queens)
+  *  `A` [骑士巡逻](src/algorithms/uncategorized/knight-tour)
+  * `A` [组合求和](src/algorithms/sets/combination-sum) - 从规定的总和中找出所有的组合
 * **B & B**
 
 ## 如何使用本仓库
