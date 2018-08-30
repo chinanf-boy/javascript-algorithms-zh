@@ -13,19 +13,25 @@
 
 > 进入到 每个算法中 还是 英文, 搞搞
 
-欢迎 \`Issue\` 和 \`Pull\` ❤️, 最好 \`Pull\` 👏
-
-
-|翻译的原文|与日期|原文更新|更多
+<!-- doc-templite START generated -->
+<!-- time = '2018 7.27' -->
+<!-- repo = 'trekhleb/javascript-algorithms' -->
+<!-- commit = 'f32172e3db50a73b2c4b09c4363d1fdc40ce2ef6' -->
+翻译的原文 | 与日期 | 最新更新 | 更多
 ---|---|---|---
-[commit]|2018 7.27|![last commit][last]|[中文翻译][more]
+[commit] | ⏰ 2018 7.27 | ![last] | [中文翻译][translate-list]
 
-[commit]:  https://github.com/trekhleb/javascript-algorithms/tree/f32172e3db50a73b2c4b09c4363d1fdc40ce2ef6
 [last]: https://img.shields.io/github/last-commit/trekhleb/javascript-algorithms.svg
-[more]: https://github.com/chinanf-boy/chinese-translate-list
+[commit]: https://github.com/trekhleb/javascript-algorithms/tree/f32172e3db50a73b2c4b09c4363d1fdc40ce2ef6
 
+<!-- doc-templite END generated -->
 
 > **提示**: 其实对应, 每个算法里面多数是维基百科, 的内容, 可能自我查找一些中文材料,理解会好一点 ❤
+
+### 贡献
+
+欢迎 👏 勘误/校对/更新贡献 😊 [具体贡献请看](https://github.com/chinanf-boy/chinese-translate-list#贡献)
+
 
 ## 生活
 
